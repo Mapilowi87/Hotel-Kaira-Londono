@@ -186,23 +186,23 @@ body{
     
 }
 .baul1{
-    background-image: url(../img/sierra.jpg);
+    background-image: url(/img/sierra.jpg);
     background-size: cover;
     background-position: center;
 
 }
 .baul2{
-    background-image: url(../img/Portada\ de\ pag.png);
+    background-image: url(/img/pagina\ hotel.png);
     background-size: cover;
     background-position: center;
 }
 .baul3{
-    background-image: url(../img/vista\ completa.png);
+    background-image: url(/img/vista\ completa.png);
     background-size: cover;
     background-position: center;
 }
 .baul4{
-    background-image: url(../img/cabaña.png);
+    background-image: url(/img/cabaña.png);
     background-size: cover;
     background-position: center;
 }
@@ -445,7 +445,7 @@ p{
 
 .figura1{
     grid-area: img1;
-    background-image: url(../img/playa\ los\ naranjos.png);
+    background-image: url(/img/playa\ los\ naranjos.png);
     background-size: cover;
     background-position: center;
     color: antiquewhite;
@@ -455,7 +455,7 @@ p{
 
 .figura2{
     grid-area: img2;
-    background-image: url(../img/galeria2.png);
+    background-image: url(/img/galeria2.png);
     background-size: cover;
     background-position: center;
 
@@ -463,7 +463,7 @@ p{
 
 .figura3{
     grid-area: img3;
-    background-image: url(../img/galeria3.png);
+    background-image: url(/img/galeria3.png);
     background-size: cover;
     background-position: center;
 
@@ -471,21 +471,21 @@ p{
 
 .figura4{
     grid-area: img4;
-    background-image: url(../img/cabo\ san\ juan\ .png);
+    background-image: url(/img/cabo\ san\ juan\ .png);
     background-size: cover;
     background-position: center;
 
 }
 .figura5{
     grid-area: img5;
-    background-image: url(../img/galeria\ 5.png);
+    background-image: url(/img/galeria\ 5.png);
     background-size: cover;
     background-position: center;
 
 }
 .figura6{
     grid-area: img6;
-    background-image: url(../img/hamacas.png);
+    background-image: url(/img/hamacas.png);
     background-size: cover;
     background-position: center;
 
