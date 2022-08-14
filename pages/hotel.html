@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="/css/estilos.css">
     <style>
 
@@ -42,7 +44,8 @@
             <p class="organizado">Habitaciòn independiente con techo de palma y gran amplitud . Es la mejor habitación de nuestro hotel, con excelente ubicación donde se puede disfrutar de unas bellas vista al mar . Consta de terraza privada con vista a la playa y a la piscina del hotel.</p> <br>
 
             <h2 id="sec">Vista al mar</h2><br>
-        <section class="cajita">
+        <section class="cajita" data-aos="fade-up"
+        data-aos-duration="3000">
         <div class="item-cajita numero1"></div>
         <div class="item-cajita numero2"></div>
         <div class="item-cajita numero3"></div>
@@ -61,7 +64,8 @@
             <h2 class="informativo">Habitacion Deluxe</h2><br>
             <p class="organizado">Dos confortables y luminosas habitaciones con elegante diseño de interiores, la habitación Deluxe ofrece un espacio amplio y con vista al rio y/o al mar. Nuestras habitaciones Deluxe cuentan con baño independiente .</p><br>
             <h2 id="sec2">Deluxe</h2><br>
-        <section class="cajon">
+        <section class="cajon" data-aos="fade-up"
+        data-aos-duration="3000">
         <div class="item-cajon numero4"></div>
         <div class="item-cajon numero5"></div>
         <div class="item-cajon numero6"></div>
@@ -83,7 +87,9 @@
 
             <h2 id="sec3">Planta Baja</h2>
 
-            <section class="punto">
+            <section class="punto" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <div class="item-cajon numero4"></div>
             <div class="item-cajon numero5"></div>
             <div class="item-cajon numero6"></div>
@@ -106,5 +112,14 @@
 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
 <a href=""></a><i class="fa-brands fa-instagram"></i></a>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>
