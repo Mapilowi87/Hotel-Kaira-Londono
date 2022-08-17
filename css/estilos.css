@@ -673,6 +673,7 @@ footer p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 200px;
 }
+
 .numero1{
     background-image: url(../img/Habitacion\ vista\ al\ Mar.png);
     width: 250px ;
@@ -682,6 +683,7 @@ footer p{
     background-size: cover;
     background-position: center;
 }
+
 .numero2{
     background-image: url(../img/vista\ al\ mar\ 2.png);
     width: 250px ;
