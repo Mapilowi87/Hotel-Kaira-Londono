@@ -6,22 +6,77 @@
 }
 
 body{
-    background-color: #5AE692;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-color: #008793;
+    background-image: linear-gradient(to right    top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
-.header {
-    height: 200px;
-    width: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding: 20px;
-    background-image: url(../img/pagina\ principal.png);
-    background-attachment: fixed;
-    padding: 20px;
-    margin: 0% auto;
-    border: 5px solid;
+.reserve {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.search {
+    border: 2px solid #000;
+    display: flex;
+    padding: 10px;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
     
+}
+
+.dates_box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.dates_box label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.room {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.s_button {
+    border: 2px solid #000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.input[type="date"]::-webkit-inner-spin-button,
+.input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+#servicios {
+    width: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .logo{
@@ -38,38 +93,105 @@ body{
     color: #5ae692;
 }
 
-.barra{
-    
-    font-size: 10px;
-    font-weight: 200;
-
+.hknav{
+    background-color: #051937;
 }
-.barra ul {
-    font-size: 5px;
-    align-items: left;
+
+.nav-link{
+    color: rgb(24, 204, 240)!important;
     text-transform: capitalize;
+    text-shadow: 0 0 5px #5ae692;
+
 
 }
 
+.jumbotron{
+    font-size: 16px;
+    background-image: url(../img/Portada\ principal.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 0px;
+    color: rgb(0, 0, 4);
 
-.barra li{
-    list-style: none;
-    display: inline-block;
+}
+
+.reserve {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.search {
+    border: 4px solid #4AAD52;
+    display: flex;
+    padding: 10px;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+}
+
+.dates_box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.dates_box label {
     font-size: 10px;
+    font-weight: bold;
+}
+
+.room {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_button {
+    border: 2px solid #000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+#servicios {
+    width: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+p {
+    background-color: #00bf72;
     
 }
 
-.barra a{
-    text-decoration: none;
-    color:#000
-    
-    
-    
-}
 
-.barra a:hover{
+.navbar-nav a:hover{
     color: aliceblue;
+    
 }
+
 
 .header-uno{
     height: 200px;
@@ -85,19 +207,6 @@ body{
     border: 5px solid;
 }
 
-.header-dos{
-    height: 200px;
-    width:auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    background-image: url(../img/pagina\ quienes\ somos.png);
-    background-attachment: fixed;
-    background-size: auto;
-    padding: 20px;
-    margin: 0% auto;
-    border: 5px solid;
-}
 .header-tres{
     height: 200px;
     width:auto;
@@ -140,24 +249,6 @@ body{
     color: #5ae692;
 }
 
-.barra{
-    
-    font-size: 80px;
-    font-weight: 200;
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-    gap: 30px;
-    
-
-}
-.barra li{
-    list-style: none;
-    display: inline-block;
-    font-size: 25px;
-    position: relative;
-    
-}
 
 .barra a{
     text-decoration: none;
@@ -183,7 +274,7 @@ body{
 
 .baul{
     background-color: #30B5E3;
-    border: 1px solid rgb(9, 128, 0);
+    border: 1px solid rgb(42, 161, 84);
     
 }
 .baul1{
@@ -193,7 +284,7 @@ body{
 
 }
 .baul2{
-    background-image: url(../img/pagina\ hotel.png);
+    background-image: url(../img/portada.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -228,22 +319,22 @@ body{
     }
 }
 
-
 .call{
-    text-align: justify;
+    text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    text-align:justify;
+    
     padding: 10px;
 
 }
 
 .table{
-    border-radius: 2px;
-    border-color: rgb(36, 61, 170);
+    border-radius: 5px;
+    border-color: rgb(8, 90, 232);
     text-align: center;
-    padding: 10px;
+
 }
+
 .linea{
     text-align: center;
     font-size: 20px;
@@ -252,18 +343,21 @@ body{
 }
 
 .contenido{
-    border-color: rgb(1, 42, 1);
+    border-color: #004d7a;
     border: 2px solid;
+    
     
 }
 
 p{
-    padding: 10px;
+    background-color: cyan;
+    padding: 5px;
 }
+
 h2{
-    color: rgb(61, 135, 88);
-    text-align: center;font-size: 30px; color: rgb(61, 135, 88);
-    text-align: center;font-size: 30px;
+    color: rgb(2, 45, 18);
+    text-shadow: #e9f1f2;
+    text-transform: capitalize;
 }
 
 h3{
@@ -272,7 +366,7 @@ h3{
 }
 
 p{
-    background-color: #5cc0ff;font-size: 20px;
+    background-color: #5cc0ff;font-size: 16px;
     border: 2px solid;
 }
     
@@ -510,8 +604,6 @@ p{
 
 }
 
-
-
 img {
     width: 250px;
     border-width: 2px;
@@ -523,13 +615,23 @@ footer{
     text-align: center;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 250px;
+    padding: 10px;
+    margin-top: 10px;
     
 }
 
 footer i{
-    color: rgb(22, 186, 41);
+    color: rgb(1, 1, 1);
     letter-spacing: 10px;
+    padding-top: 5px;
 }
+.fin{
+    font-size: 16px;
+    background-color: #11428a;
+    margin: auto;
+}
+
 footer p{
     margin: 10px;
 }
@@ -558,7 +660,7 @@ footer p{
     color: #000;
     text-align: left;
     font-size: 16px;
-    border-radius: 7px;
+    border-radius: 8px;
 }
 
 .contenedor-mision{
@@ -647,7 +749,7 @@ footer p{
     text-transform: uppercase;
     color: rgb(1, 42, 1);
     font-size: 16px;
-    
+
 }
 
 .centrar:hover{
@@ -673,7 +775,6 @@ footer p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 200px;
 }
-
 .numero1{
     background-image: url(../img/Habitacion\ vista\ al\ Mar.png);
     width: 250px ;
@@ -683,7 +784,6 @@ footer p{
     background-size: cover;
     background-position: center;
 }
-
 .numero2{
     background-image: url(../img/vista\ al\ mar\ 2.png);
     width: 250px ;
@@ -840,8 +940,7 @@ footer p{
     background-position: center;
     border: 3px solid black;
 }
-
-p ::selection{
+.p::selection{
     color:rgb(13, 4, 117);
-    background-color: #008793;
+    background-color:#e9f1f2;
 }
