@@ -352,6 +352,10 @@ main .baul4 {
   background-size: cover;
   background-position: center;
 }
+main .cambio, main .h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
 main .h2 {
   color: green;
   text-shadow: #e9f1f2;
@@ -421,15 +425,16 @@ main img {
 }
 main p {
   background-color: #8bd8fc;
-  font-size: 16px;
-  border: 2px solid;
-  padding: 5px;
+  font-size: 20px;
+  border: 5px solid cornflowerblue;
+  padding: 10px;
+  margin: 10px;
 }
 main .informativo {
-  font-size: 20px;
+  font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-bottom: #5ae692;
-  border: 2px solid;
+  border: 5px solid;
   background-color: darkslategrey;
 }
 main .cajita {
@@ -629,12 +634,6 @@ section h2 {
   text-transform: capitalize;
   font-family: verdana;
 }
-section p {
-  background-color: #8bd8fc;
-  font-size: 16px;
-  border: 2px solid;
-  padding: 5px;
-}
 section .contenedor-nosotros {
   height: auto;
   width: 100%;
@@ -711,19 +710,19 @@ section .mision {
   border: 1px solid rgb(180, 189, 180);
 }
 section .mision1 {
-  background-image: url(../img/mision\ .png);
+  background-image: url(../img/mision\ 1.jpg);
   background-size: cover;
   background-position: center;
   border: 3px solid black;
 }
 section .mision2 {
-  background-image: url(../img/mision\ 2.png);
+  background-image: url(../img/mision\ 2.jpg);
   background-size: cover;
   background-position: center;
   border: 3px solid black;
 }
 section .mision3 {
-  background-image: url(../img/mision\ 3.png);
+  background-image: url(../img/mision\ 3.jpg);
   background-size: cover;
   background-position: center;
   border: 3px solid black;
@@ -787,8 +786,8 @@ h5 {
 }
 
 .item {
-  height: 300px;
-  width: 300px;
+  height: 600px;
+  width: 400px;
   background-color: #5AA0E6;
   border: 3px solid #5ae692;
   text-align: center;
@@ -836,9 +835,8 @@ footer {
   text-align: center;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 250px;
+  height: 200px;
   padding: 10px;
-  margin-top: 10px;
 }
 footer footer i {
   color: rgb(1, 1, 1);
@@ -853,7 +851,7 @@ footer .fin {
 footer footer p {
   margin: 10px;
 }
-footer .final {
+footer .final, footer .contacto {
   font-size: 16px;
   color: #000;
   font-weight: normal;
@@ -879,4 +877,53 @@ header .definido {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 5px;
+}
+
+/*declaramos nuestro mapa*/
+.mapa--1px {
+  display: inline-block;
+  background-color: red;
+  height: 20px;
+  width: 40px;
+  border: 1px solid pink;
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mapa--2px {
+  display: inline-block;
+  background-color: purple;
+  height: 20px;
+  width: 40px;
+  border: 2px solid pink;
+  text-align: center;
+  font-size: 15px;
+  color: purple;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mapa--3px {
+  display: inline-block;
+  background-color: blue;
+  height: 20px;
+  width: 40px;
+  border: 3px solid pink;
+  text-align: center;
+  font-size: 15px;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mapa--4px {
+  display: inline-block;
+  background-color: green;
+  height: 20px;
+  width: 40px;
+  border: 4px solid pink;
+  text-align: center;
+  font-size: 15px;
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }/*# sourceMappingURL=estilos.css.map */

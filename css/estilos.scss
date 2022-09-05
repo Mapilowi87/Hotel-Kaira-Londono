@@ -377,6 +377,7 @@ font-size: 16px;
 border: 2px solid;
 padding: 5px;
 }
+
 }
 
 main{
@@ -420,7 +421,12 @@ main{
         background-position: center;
     }
     
+    .cambio{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
     .h2{
+        @extend .cambio;
         color: $colortitulo;
         text-shadow: #e9f1f2;
         text-transform: capitalize;
@@ -506,17 +512,18 @@ main{
     
     p{
         background-color: $colorparrafo;
-    font-size: 16px;
-    border: 2px solid;
-    padding: 5px;
+        font-size: 20px;
+        border: 5px solid cornflowerblue;
+        padding: 10px;
+        margin: 10px;
     
     }
     
     .informativo{
-        font-size: 20px;
+        font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         border-bottom: #5ae692;
-        border: 2px solid;
+        border: 5px solid;
         background-color: darkslategrey;
     
     }
@@ -670,6 +677,7 @@ main{
         margin: 10px;
         padding: 10px;
     }
+
     .p::selection{
         color:rgb(13, 4, 117);
         background-color:#e9f1f2;
@@ -677,6 +685,7 @@ main{
 
     }
     article{
+
         .table{
             border-radius: 5px;
             border-color: rgb(8, 90, 232);
@@ -739,11 +748,6 @@ main{
             font-family: $font1;
         }
     
-        p{
-            background-color: $colorparrafo;font-size: 16px;
-            border: 2px solid;
-            padding: 5px;
-        }
     
         .contenedor-nosotros{
             height: auto;
@@ -838,21 +842,21 @@ main{
         
         }
         .mision1{
-            background-image: url(../img/mision\ .png);
+            background-image: url(../img/mision\ 1.jpg);
             background-size: cover;
             background-position: center;
             border: 3px solid black;
         }
         
         .mision2{
-            background-image: url(../img/mision\ 2.png);
+            background-image: url(../img/mision\ 2.jpg);
             background-size: cover;
             background-position: center;
             border: 3px solid black;
         }
         
         .mision3{
-            background-image: url(../img/mision\ 3.png);
+            background-image: url(../img/mision\ 3.jpg);
             background-size: cover;
             background-position: center;
             border: 3px solid black;
@@ -908,6 +912,7 @@ main{
             background-position: center;
             border: 3px solid black;
         }
+        
     
     
     }
@@ -925,8 +930,8 @@ main{
     }
 
     .item{
-        height: 300px;
-        width: 300px;
+        height: 600px;
+        width: 400px;
         background-color: #5AA0E6;
         border: 3px solid #5ae692;
         text-align: center;
@@ -976,9 +981,9 @@ main{
         text-align: center;
         font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: 250px;
+        height: 200px;
         padding: 10px;
-        margin-top: 10px;
+        
     
         footer i{
             color: rgb(1, 1, 1);
@@ -995,18 +1000,25 @@ main{
             margin: 10px;
         }
     
-        .final{
+        @mixin primer {
             font-size: 16px;
             color: #000;
             font-weight: normal;
             padding: 10px;
         }
+
+        .final {
+            @include primer;
+        }
+
         .contacto{
+            @extend .final;
             font-size: 16px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-align: right;
         
         }
+        
     }
     
     header{
@@ -1027,3 +1039,26 @@ main{
             border-radius: 5px;
         }
     }
+        /*declaramos nuestro mapa*/
+        $productos: (
+            1px: red,
+            2px: purple,
+            3px: blue,
+            4px: green,
+        );
+        @each $border, $color in $productos {
+            .mapa--#{$border} {
+                display: inline-block;
+                background-color:$color;
+                height: 20px;
+                width: 40px;
+                border: $border solid pink;
+                text-align: center;
+                font-size: 15px;
+                color: $color;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+            }
+        }
+
+
