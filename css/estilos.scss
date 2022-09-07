@@ -265,7 +265,6 @@ body{
         text-align: left;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 16px;
-        
         padding: 10px;
     
     }
@@ -373,10 +372,10 @@ h3{
 
 p{
     background-color: $colorparrafo;
-    font-size: 20px;
-    border: 5px solid cornflowerblue;
-    padding: 10px;
-    margin: 10px;
+        font-size: 20px;
+        border: 5px solid cornflowerblue;
+        padding: 10px;
+        margin: 10px;
 }
 
 }
@@ -392,12 +391,11 @@ main{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 180px;
         
-    
     }
     
     .baul{
         background-color: #30B5E3;
-        border: 1px solid rgb(42, 161, 84);
+        border: 2px solid rgb(42, 161, 84);
         
     }
     .baul1{
@@ -416,11 +414,13 @@ main{
         background-size: cover;
         background-position: center;
     }
+    
     .baul4{
-        background-image: url(../img/cabaña.png);
+        background-image: url(../img/cabaña\ index.jpg);
         background-size: cover;
         background-position: center;
     }
+
     
     
     .h2{
@@ -436,7 +436,7 @@ main{
     .contenedor-figura{
         height: auto;
         width: 100%;
-        background-color: #5ae692;
+        background-color: #30B5E3;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 200px 200px;
@@ -447,7 +447,7 @@ main{
     }
     
     .figura{
-        border: 1px solid #000;
+        border: 2px solid rgb(42, 161, 84);
         border: radius 5px solid #000;
         height: 200px;
         width: 200px;
@@ -513,7 +513,7 @@ main{
     
     p{
         background-color: $colorparrafo;
-        font-size: 20px;
+        font-size: 30px;
         border: 5px solid cornflowerblue;
         padding: 10px;
         margin: 10px;
@@ -736,6 +736,7 @@ main{
             border: 5px solid cornflowerblue;
             padding: 10px;
             margin: 10px;
+            
         
         }
         
@@ -993,7 +994,7 @@ main{
             color: rgb(1, 1, 1);
             letter-spacing: 10px;
             padding-top: 5px;
-            font-size: 20px;
+            font-size: 25px;
         }
         .fin{
             font-size: 16px;
@@ -1031,7 +1032,7 @@ main{
         }
         p{
             background-color: $colorparrafo;font-size: 16px;
-            border: 2px solid;
+            border: 2px $colorparrafo solid;
             padding: 5px;
         }
         
