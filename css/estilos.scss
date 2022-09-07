@@ -373,9 +373,10 @@ h3{
 
 p{
     background-color: $colorparrafo;
-font-size: 16px;
-border: 2px solid;
-padding: 5px;
+    font-size: 20px;
+    border: 5px solid cornflowerblue;
+    padding: 10px;
+    margin: 10px;
 }
 
 }
@@ -421,12 +422,11 @@ main{
         background-position: center;
     }
     
-    .cambio{
+    
+    .h2{
+        
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
-    }
-    .h2{
-        @extend .cambio;
         color: $colortitulo;
         text-shadow: #e9f1f2;
         text-transform: capitalize;
@@ -730,9 +730,12 @@ main{
         
         }
         p{
-            background-color: $colorparrafo;font-size: 16px;
-            border: 2px solid;
-            padding: 5px;
+            background-color: $colorparrafo;
+            font-size: 20px;
+            border: 5px solid cornflowerblue;
+            padding: 10px;
+            margin: 10px;
+        
         }
         
         .somos{
@@ -930,7 +933,7 @@ main{
     }
 
     .item{
-        height: 600px;
+        height: 400px;
         width: 400px;
         background-color: #5AA0E6;
         border: 3px solid #5ae692;
@@ -1000,19 +1003,15 @@ main{
             margin: 10px;
         }
     
-        @mixin primer {
+
+        .final {
             font-size: 16px;
             color: #000;
             font-weight: normal;
             padding: 10px;
         }
 
-        .final {
-            @include primer;
-        }
-
         .contacto{
-            @extend .final;
             font-size: 16px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-align: right;
@@ -1039,26 +1038,3 @@ main{
             border-radius: 5px;
         }
     }
-        /*declaramos nuestro mapa*/
-        $productos: (
-            1px: red,
-            2px: purple,
-            3px: blue,
-            4px: green,
-        );
-        @each $border, $color in $productos {
-            .mapa--#{$border} {
-                display: inline-block;
-                background-color:$color;
-                height: 20px;
-                width: 40px;
-                border: $border solid pink;
-                text-align: center;
-                font-size: 15px;
-                color: $color;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                
-            }
-        }
-
-
