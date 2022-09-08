@@ -863,6 +863,10 @@ footer .contacto {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: right;
 }
+footer .sosten {
+  height: auto;
+  width: 800px;
+}
 
 header h3 {
   text-align: center;
