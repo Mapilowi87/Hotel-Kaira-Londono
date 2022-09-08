@@ -110,8 +110,8 @@ body{
         text-shadow: 0 0 5px #5ae692;
     }
     .subir{
-        height: 40px;
-        width: 40px;
+        height: 80px;
+        width: 80px;
         background-color: rgb(25, 12, 121);
         position: fixed;
         bottom: 20px;
@@ -672,11 +672,16 @@ main{
         background-position: center;
     }
     .border{
+        font-size: 25px;
         border: 2px solid #000;
         border-color: darkslategrey;
         border-radius: 7px;
         margin: 10px;
         padding: 10px;
+    }
+    .text-center{
+        font-size: 20px;
+        color: $colortitulo;
     }
 
     .p::selection{
@@ -935,7 +940,7 @@ main{
     }
 
     .item{
-        height: 400px;
+        height: 600px;
         width: 400px;
         background-color: #5AA0E6;
         border: 3px solid #5ae692;
@@ -986,8 +991,11 @@ main{
         text-align: center;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: 300px;
-        padding: 20px;
+        height: 200px;
+        
+        padding: 10px;
+        
+
         
     
         footer i{

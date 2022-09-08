@@ -84,8 +84,8 @@ body .nav-link {
   text-shadow: 0 0 5px #5ae692;
 }
 body .subir {
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
   background-color: rgb(25, 12, 121);
   position: fixed;
   bottom: 20px;
@@ -572,11 +572,16 @@ main .numero9 {
   background-position: center;
 }
 main .border {
+  font-size: 25px;
   border: 2px solid #000;
   border-color: darkslategrey;
   border-radius: 7px;
   margin: 10px;
   padding: 10px;
+}
+main .text-center {
+  font-size: 20px;
+  color: green;
 }
 main .p::-moz-selection {
   color: rgb(13, 4, 117);
@@ -786,7 +791,7 @@ h5 {
 }
 
 .item {
-  height: 400px;
+  height: 600px;
   width: 400px;
   background-color: #5AA0E6;
   border: 3px solid #5ae692;
@@ -835,8 +840,8 @@ footer {
   text-align: center;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 300px;
-  padding: 20px;
+  height: 200px;
+  padding: 10px;
 }
 footer footer i {
   color: rgb(1, 1, 1);
