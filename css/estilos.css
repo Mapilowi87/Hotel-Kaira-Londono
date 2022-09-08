@@ -835,12 +835,12 @@ footer {
   text-align: center;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 200px;
-  padding: 10px;
+  height: 300px;
+  padding: 20px;
 }
 footer footer i {
   color: rgb(1, 1, 1);
-  letter-spacing: 10px;
+  letter-spacing: 20px;
   padding-top: 5px;
   font-size: 25px;
 }
@@ -850,7 +850,7 @@ footer .fin {
   margin: auto;
 }
 footer footer p {
-  margin: 10px;
+  margin: 5px;
 }
 footer .final {
   font-size: 16px;
@@ -862,10 +862,6 @@ footer .contacto {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: right;
-}
-footer .sosten {
-  height: auto;
-  width: 800px;
 }
 
 header h3 {
