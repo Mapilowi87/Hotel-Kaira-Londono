@@ -883,4 +883,13 @@ header .definido {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .call {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
