@@ -15,7 +15,7 @@ $font1: verdana;
 body{
     background-color: #008793;
     background-image: linear-gradient(to right    top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    
+
     .reserve {
         color: white;
         display: flex;
@@ -110,8 +110,8 @@ body{
         text-shadow: 0 0 5px #5ae692;
     }
     .subir{
-        height: 80px;
-        width: 80px;
+        height: 40px;
+        width: 40px;
         background-color: rgb(25, 12, 121);
         position: fixed;
         bottom: 20px;
@@ -235,7 +235,7 @@ body{
 
 .jumbotron{
     font-size: 16px;
-    background-image: url(../img/Portada\ principal.png);
+    background-image: url(../img/Portada\ de\ pag.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -265,6 +265,7 @@ body{
         text-align: left;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 16px;
+        
         padding: 10px;
     
     }
@@ -372,14 +373,13 @@ h3{
 
 p{
     background-color: $colorparrafo;
-        font-size: 20px;
-        border: 5px solid cornflowerblue;
-        padding: 10px;
-        margin: 10px;
+    font-size: 20px;
+    border: 5px solid cornflowerblue;
+    padding: 10px;
+    margin: 10px;
 }
 
 }
-
 
 main{
 
@@ -392,11 +392,12 @@ main{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 180px;
         
+    
     }
     
     .baul{
         background-color: #30B5E3;
-        border: 2px solid rgb(42, 161, 84);
+        border: 1px solid rgb(42, 161, 84);
         
     }
     .baul1{
@@ -415,13 +416,11 @@ main{
         background-size: cover;
         background-position: center;
     }
-    
     .baul4{
-        background-image: url(../img/cabaña\ index.jpg);
+        background-image: url(../img/cabaña.png);
         background-size: cover;
         background-position: center;
     }
-
     
     
     .h2{
@@ -437,7 +436,7 @@ main{
     .contenedor-figura{
         height: auto;
         width: 100%;
-        background-color: #30B5E3;
+        background-color: #5ae692;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 200px 200px;
@@ -448,7 +447,7 @@ main{
     }
     
     .figura{
-        border: 2px solid rgb(42, 161, 84);
+        border: 1px solid #000;
         border: radius 5px solid #000;
         height: 200px;
         width: 200px;
@@ -514,7 +513,7 @@ main{
     
     p{
         background-color: $colorparrafo;
-        font-size: 30px;
+        font-size: 20px;
         border: 5px solid cornflowerblue;
         padding: 10px;
         margin: 10px;
@@ -567,7 +566,7 @@ main{
         background-position: center;
     }
     .numero3{
-        background-image: url(../img/vista\ mar.jpg);
+        background-image: url(../img/vista\ al\ mar\ 3.png);
         width: 250px ;
         border-width: 3px;
         border-color: darkgreen;
@@ -673,16 +672,11 @@ main{
         background-position: center;
     }
     .border{
-        font-size: 25px;
         border: 2px solid #000;
         border-color: darkslategrey;
         border-radius: 7px;
         margin: 10px;
         padding: 10px;
-    }
-    .text-center{
-        font-size: 20px;
-        color: $colortitulo;
     }
 
     .p::selection{
@@ -742,7 +736,6 @@ main{
             border: 5px solid cornflowerblue;
             padding: 10px;
             margin: 10px;
-            
         
         }
         
@@ -941,7 +934,7 @@ main{
     }
 
     .item{
-        height: 600px;
+        height: 400px;
         width: 400px;
         background-color: #5AA0E6;
         border: 3px solid #5ae692;
@@ -993,17 +986,14 @@ main{
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         height: 200px;
-        
         padding: 10px;
-        
-
         
     
         footer i{
             color: rgb(1, 1, 1);
-            letter-spacing: 20px;
+            letter-spacing: 10px;
             padding-top: 5px;
-            font-size: 25px;
+            font-size: 20px;
         }
         .fin{
             font-size: 16px;
@@ -1012,7 +1002,7 @@ main{
         }
         
         footer p{
-            margin: 5px;
+            margin: 10px;
         }
     
 
@@ -1031,7 +1021,6 @@ main{
         }
         
         
-        
     }
     
     header{
@@ -1041,22 +1030,12 @@ main{
             font-size: 20px;
         }
         p{
-            background-color: $colorparrafo;font-size: 16px;
-            border: 2px $colorparrafo solid;
-            padding: 5px;
+            background-color: $colorparrafo;
+            font-size: 20px;
+            border: 5px solid cornflowerblue;
+            padding: 10px;
+            margin: 10px;
         }
         
-        .definido{
-            font-size: 16px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            border-radius: 5px;
-        }
     }
-    @media only screen and ( max-width: 600px) {
-        .call {
-            text-align: left;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 16px;
-        padding: 10px;
-        }
-    }
+
